@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>404 - Page Not Found</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #0c0c0c; /* Dark background */
+      color: white;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      flex-direction: column;
+    }
+    .container {
+      text-align: center;
+      position: relative;
+    }
+
+    /* Premium RGB 404 Text */
+    .error-text {
+      font-size: 10vw;
+      font-weight: 700;
+      background: linear-gradient(45deg, #ff4b4b, #ff9933, #4dff4d, #3399ff, #ff66cc);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      text-shadow: 0 0 30px rgba(255, 75, 75, 0.8), 0 0 50px rgba(51, 153, 255, 0.8);
+    }
+
+    /* Heading Text */
+    h2 {
+      font-size: 2rem;
+      margin-top: 20px;
+      background: linear-gradient(90deg, #4dff4d, #3399ff);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      text-shadow: 0 0 10px rgba(51, 153, 255, 0.8), 0 0 20px rgba(77, 255, 77, 0.7);
+    }
+
+    /* Paragraph Text */
+    p {
+      margin-top: 10px;
+      font-size: 1.1rem;
+      color: #ddd;
+      background: linear-gradient(90deg, #ff9933, #ff4b4b);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    /* Go Home Button */
+    .button {
+      margin-top: 30px;
+      display: inline-block;
+      padding: 10px 20px;
+      background: linear-gradient(90deg, #ff66cc, #ff4b4b);
+      color: white;
+      text-decoration: none;
+      border-radius: 25px;
+      box-shadow: 0 0 10px #ff4b4b, 0 0 20px #ff66cc;
+      transition: background 0.3s, box-shadow 0.3s;
+    }
+    .button:hover {
+      background: linear-gradient(90deg, #ff4b4b, #ff9933);
+      box-shadow: 0 0 20px #ff9933, 0 0 30px #ff4b4b;
+    }
+
+  </style>
+</head>
+<body>
+
+  <!-- Main Content -->
+  <div class="container">
+    <div class="error-text">404</div>
+    <h2>Website is down</h2>
+    <p>This website has been taken down by</p>
+    <p>Ayush Singh</p>
+    <a href="" class="button">👋🏻 Bye</a>
+  </div>
+</body>
+</html>
